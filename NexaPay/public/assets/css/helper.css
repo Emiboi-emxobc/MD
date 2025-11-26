@@ -1,0 +1,174 @@
+.p4{
+   padding: 1rem;
+   box-sizing: border-box;
+}
+.p8{
+   padding: 2rem;
+}
+.g4{
+   gap: 1rem;
+}
+.g8{
+   gap:2rem;
+}
+.fr{
+   display: flex;
+   align-items: center;
+   
+}
+.frse{
+   justify-content: space-between;
+   align-items: center;
+display: flex
+}
+.frsb{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.fas{
+   color: var(--icon);
+}
+.fa-eye{
+   margin: 0 0.4rem;
+
+}
+.label{
+   color: var(--icon);
+}
+.tag{
+   margin: 0;
+   padding: 1px;
+}
+.nav.active{
+   color: #eee;
+   border-bottom: 2px solid var(--main);
+   font-weight: bold;
+}
+#search{
+   border-radius: 20px;
+   width: 90px;
+   height: auto;
+   padding: 0.3rem ;
+}
+.fa-brands{
+   font-size: 1.9rem;
+}
+.txt-sm{
+   font-size: 0.8rem;
+   color: var(--icon);
+}
+.nav{
+   cursor: pointer;
+   
+}
+.p0{
+   padding: 0;
+   margin: 0;
+}
+.m2 {
+   margin: 0.5rem;
+}
+.m4{
+   margin:1rem;
+}
+.mx4{
+   margin: 0 1rem;
+}
+.my4{
+   margin: 1rem 0;
+}
+.py4{
+   padding: 1rem 0;
+}
+.px4{
+   padding: 0 1rem;
+}
+.br4{
+   border-radius: 1rem;
+}
+.fcac{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.relative{
+   position: relative;
+}
+.card{
+   padding: 0.6rem 1rem;
+}
+.ab{
+   position: absolute;
+}
+.fe{
+   display: flex;
+   justify-content: flex-end;
+}
+.frac{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.f-w{
+   width: 100%;
+}
+.page{
+   display: none;
+   
+}
+.page.active{
+   display: block;
+}
+
+.search-bar{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+        
+}
+.search-icon{
+         position: absolute;
+         top: 50%;
+         transform : translate(-50%,-50%);
+         right: 1rem;
+         font-size: 1.3rem;
+}
+.uppercase{
+   text-transform: uppercase;
+}
+.search-input{
+   padding: 0.6rem 1rem;
+   outline: none;
+   background: transparent;
+   border: 1px solid var(--highlight);
+          border-radius: 20px;
+}
+hr{
+   color: var(--mini-card);
+   border: 1px solid;
+   margin: 1.3rem 0.2rem;
+}
+.dot{
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background: var(--discount);
+   border: 1px solid var(--highlight);
+   
+}
+.hidden{
+   display: none;
+}
+.dot-con{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   position: relative;
+   
+   
+}

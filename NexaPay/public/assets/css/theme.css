@@ -1,0 +1,28 @@
+:root {
+   /* default = dark mode */
+   --dark:#16171B;
+   --card:#16171B;
+   --mini-card:#24282C;
+   --brand:#F2A814;
+   --main:#F2A814;
+   --highlight:#92CCFB;
+   --icon:#B3AEAB;
+   --discount:#A41333;
+}
+
+
+
+
+
+/* LIGHT MODE AUTO */
+@media (prefers-color-scheme: dark) {
+   :root {
+      --dark:#FFFFFF;
+      --card:#F5F5F7;
+      --mini-card:#E9ECEF;
+      --main:#D48300;
+      --brand:#0A3D63;
+      --highlight:#005FB5;
+      --icon:#514D49;
+   }
+}
