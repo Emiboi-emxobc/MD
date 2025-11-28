@@ -225,6 +225,23 @@
 dot($$(".banner"),$("#hero"));
 
 
+
+  // small interaction: header shadow on scroll + reveal animations
+  const header = document.querySelector('.nexa-header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 8) header.classList.add('scrolled'); else header.classList.remove('scrolled');
+  });
+
+  // optional: add tiny stagger to fade-in items
+  document.querySelectorAll('.fade-in').forEach((el,i)=>{
+    el.style.animationDelay = (i * 80) + 'ms';
+  });
+
+  // If you want to switch to CDN imports for your JS modules, replace local paths with:
+  // import dot from "https://cdn.jsdelivr.net/gh/Emiboi-emxobc/nexaPay@main/NexaPay/public/assets/js/helper.js";
+  // etc.
+
+
    </script>
 </body>
 
