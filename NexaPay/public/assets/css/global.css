@@ -17,6 +17,15 @@ body{
    padding: 1rem;
    
 }
+.avata4{
+   width: 60px;
+   height: 60px;
+   
+}
+.avata{
+   border-radius: 50%;
+   
+}
 .dashboard{
    margin: 1rem;
 }
