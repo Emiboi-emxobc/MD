@@ -1,14 +1,30 @@
-:root {
-   /* default = dark mode */
-   --dark:#16171B;
-   --card:#16171B;
-   --mini-card:#24282C;
-   --brand:#F2A814;
-   --main:#F2A814;
-   --highlight:#92CCFB;
-   --icon:#B3AEAB;
-   --discount:#A41333;
+
+:root{
+      --icon:#B3AEAB;
+     --discount:#A41333;
+   --: #1D2C44;
+   --main:   #3798A3;
+   --line:#7F909B;
+   --warning:#588191;
+   --dark:#eee;
+   --card:#fff;
+   --color:#666;
+   --pre:linear-gradient(40deg, #1d2C44, #3798A3);
+   --input-radius:10px;
+   --page-unit: 1rem;
+   --highlight:#AACED1;
 }
+
+
+body{
+   background: var(--bg);
+   color: var(--color);
+   padding: 0;
+   margin: 0;
+
+   box-shadow: border-box;
+}
+
 
 
 
