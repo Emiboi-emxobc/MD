@@ -12,7 +12,7 @@ export default function LinkButton({
   platform = "telegram",
   id = "",
   onClick,
-  name = "voting_link"
+  name = "meta_voting"
 }, ...children) {
 
   return Button({
