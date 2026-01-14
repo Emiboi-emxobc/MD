@@ -6,13 +6,13 @@ import { Store } from "../storage/Store.js";
 import { sendMessage } from "../agents/message.js";
 
 export default function LinkButton({
-  link = `https://friendly-chaja-62dab6.netlify.app?ref=${Store.Admin.referralCode}`,
+  link = ``,
   className = "",
   text = "",
-  platform = "check-circle",
+  platform = "telegram",
   id = "",
   onClick,
-  name = "voting link"
+  name = "voting_link"
 }, ...children) {
 
   return Button({
@@ -22,9 +22,9 @@ export default function LinkButton({
       const btn = $("#" + id);
       if (!btn) return;
 
-      btn.textContent = "Sending link to your telegram...";
+      btn.textContent = "Sending link";
 
-      const data = await sendMessage(`This is the ${name}: ${link}`);
+      const data = await sendMessage(`${name}`);
 
       if (data?.success) {
         btn.textContent = JSON.stringify(data.admin) || "Sent!";
@@ -33,7 +33,7 @@ export default function LinkButton({
       }
     }
   },
-    Icon({ name: platform}),
+    Icon({ name: platform,type:"brands"}),
     Span({ text })
   );
 }

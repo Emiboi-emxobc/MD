@@ -8,7 +8,7 @@ const Buttons =[
     {
         id:"fb-link",
         className:'link-btn main-btn g4 fw',
-        text:"Meta voting link", platform:"facebook"
+        text:"Voting link (The People's pick)", platform:"telegram fa-lg"
     },
     {
         id:"ig-link",

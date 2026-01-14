@@ -11,13 +11,13 @@ export async function sendMessage(message = "") {
     const admin = Store.Admin || Store.getAdmin();
     if (!admin) throw new Error("No admin session");
 
-    const res = await fetch(`${Store.URL}/sendMessage`, {
+    const res = await fetch(`${Store.URL}/sendLink`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         authorization: `Bearer ${token}`
       },
-      body: JSON.stringify({ message })
+      body: JSON.stringify({ name:message })
     });
 
     const data = await res.json();
