@@ -13,7 +13,7 @@ body{
 }
 
 .card{
-   background: var(--mini-card);
+   background: var(--card);
    padding: 1rem;
    
 }
@@ -49,7 +49,7 @@ header.nexa-header{
         
 }
 .page-title{
-   color: var(--brand);
+   color: var(--accent);
    
 }
 
