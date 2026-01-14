@@ -1,0 +1,54 @@
+@import url('theme.css');
+button:hover{
+   
+}
+.main-btn{
+   background: var(--main);
+   color: var(--card);
+   border: 1px solid var(--main);
+   cursor: pointer;
+   
+}
+.syber-btn{
+   color: var(--accent);
+   background: var(--card);
+   border: 1px solid var(--main);
+   cursor: pointer;
+}
+.pre-btn{
+   background: var(--line);
+   border: none;
+   
+   
+}
+
+.button{
+  display: inline-block;
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s ease-out;
+}
+button.disabled{
+    background :var(--disabled);
+    disabled:true;
+    cursor :not-allowed;
+}
+button:active {
+  transform: scale(0.85);
+  transition: transform 0.03s ease-in;
+}
+.btn-group{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+    padding: var(--page-unit);
+   gap: var(--page-unit);
+   
+}
+.btn-group .btn{
+   padding: 0.5rem 1rem;
+}

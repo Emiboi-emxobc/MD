@@ -1,0 +1,56 @@
+@import url("theme.css");
+
+.md-nav-con{
+   background: var(--card);
+   display: flex;
+   transform: translateX(-50%);
+   justify-content: space-evenly;
+   padding: 10px;
+   position: fixed;
+   width: 90%;
+   bottom: 0;
+   box-shadow: 0 -2px 19px var(--line);
+   border-radius: 40px;
+   left: 50%;
+   align-items: center;
+   
+}
+.md-nav.center{
+   background: transparent;
+   border :1px solid;
+   color: var(--main);
+   border-radius: 50%;
+   padding: 1rem;
+}
+.md-nav.center.active{
+   background: var(--main);
+   color: var(--card);
+   padding: 1rem;
+}
+.footer{
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.md-nav{
+   background: transparent;
+   list-style:none;
+   cursor: pointer;
+   padding: 0.5rem;
+   border-radius: 1rem;
+}
+.md-nav.active{
+   color: var(--main);
+   background: #AACED1;
+   font-weight: 700;
+   
+}
+.link{
+   color: var(--main);
+   background:#EBF4F5;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+

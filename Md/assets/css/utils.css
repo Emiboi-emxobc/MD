@@ -1,0 +1,50 @@
+.fsb{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.fc{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.fr{
+   display: flex;
+   align-items: center;
+}
+.g4{
+   gap: 1rem;
+}
+.g8{
+   gap: 2rem;
+}
+.g6{
+   gap: 1.5rem;
+}
+.p4{
+   padding: 1rem;
+}
+.my2{
+    margin:0.5rem 0;
+}
+.my4{
+    margin :1rem 0;
+}
+.feedback.error{
+    background:var(--error);
+    border:1px var(--page-unit);
+    padding:0.5rem;
+  
+    
+}
+.fw{
+    width: 100%;
+}
+.py12{
+    padding: 3rem 0;
+}
+.frac{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+}

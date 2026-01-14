@@ -1,0 +1,118 @@
+/* LABEL BASE */
+label {
+   color: var(--main);
+}
+
+/* INPUT BASE */
+input {
+   border: 1px solid var(--main);
+   display: block;
+   border-radius: var(--input-radius);
+   background: #E8F0FE;
+   padding:0.7rem;
+   transition: border 0.3s ease-in;
+}
+
+/* FORM INPUT STYLE */
+.md-form input {
+   padding: 0.4rem 0.6rem;
+   width: 100%;
+   margin: 0.5rem 0;
+   color: var(--accent);
+}
+
+/* FOCUS STYLE */
+input:focus {
+   color: var(--accent);
+   border: 1px solid var(--main);
+   outline: none;
+}
+.md-form{
+   width: 100%;
+    
+}
+.alt{
+   padding: 1rem;
+   font-size: 0.7rem;
+}
+/* GRID UTILITY */
+.half-con {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 1rem;
+}
+input[type=search]{
+   width: 90px;
+}
+.md-form button{
+   border-radius: var(--input-radius);
+}
+.half-con input {
+   width: 100%;
+   
+}
+
+/* INPUT-GROUP WRAPPER */
+.input-group {
+   position: relative;
+   width: 100% ;
+   margin:1rem 0;
+}
+.input-group .telegram-link{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 0.8rem;
+   background: var(--accent);
+   color: var(--card);
+   padding: 0.4rem;
+   right: 0 ;
+   text-decoration: none;
+   border-radius: var(--input-radius);
+}
+/* INPUT-GROUP LABEL */
+.input-group label {
+   position: absolute;
+   top: 50%;
+   left: 0.7rem;
+   transform: translateY(-50%);
+   pointer-events: none;
+   transition: 0.25s ease;
+   color: var(--color);
+   font-size: 0.8rem;
+}
+legend{
+   margin: 1rem 0;
+   
+}
+a{
+   text-decoration: none;
+   color: var(--accent);
+}
+/* FLOATING LABEL — FOR FOCUS OR WHEN NOT EMPTY */
+.input-group.not-empty label,
+.input-group input:focus ~ label {
+   font-size: 0.7rem;
+   transform: translateY(-1.4rem);
+   color: var(--main);
+   background: var(--card);
+   padding: 0 .3rem;
+   z-index: 5;
+}
+.md-form-con{
+   display: flex;
+   align-items: center ;
+   justify-content: center;
+   flex-direction:column;
+   height: 100vh;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: var(--page-unit);
+
+}
+.password-input{
+   padding: 1rem 0;
+}
+/* DEBUG — REMOVE THIS LATER */

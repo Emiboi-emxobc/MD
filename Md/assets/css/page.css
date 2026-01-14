@@ -1,0 +1,27 @@
+@import url("theme.css");
+
+.page-title{
+   color: var(--main);
+}
+.md-header{
+   background: var(--card);
+   z-index:999;
+}
+.page-name{
+   color: var(--card);
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+.md-s-header{
+   background: var(--main);
+}
+.hidden{
+   display: none  !important;
+  
+}
+.page{
+   display: none;
+}
+.page.active{
+   display: block;
+}

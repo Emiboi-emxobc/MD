@@ -1,0 +1,16 @@
+@import url("nav.css");
+@import url("brand.css");
+@import url("form.css");
+@import url("page.css");
+@import url("button.css");
+@import url('modal.css');
+@import url('utils.css');
+@import url("component.css");
+@import url('icons.css');
+*{
+   box-sizing: border-box;
+}
+body{
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+}

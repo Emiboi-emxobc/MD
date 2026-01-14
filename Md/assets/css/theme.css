@@ -1,0 +1,25 @@
+:root{
+   --accent: #1D2C44;
+   --main:   #3798A3;
+   --error:#BEC8D2;
+   --erroor:#588191;
+   --bg:#eee;
+   --card:#fff;
+   --color:#666;
+   --pre:linear-gradient(40deg, #1d2C44, #3798A3);
+   --input-radius:10px;
+   --page-unit: 1rem;
+  --disabled :#74B3BA;
+   --highlight:#AACED1;
+}
+
+
+body{
+   background: var(--bg);
+   color: var(--color);
+   padding: 0;
+   margin: 0;
+
+   box-shadow: border-box;
+}
+
