@@ -27,7 +27,7 @@ export default function LinkButton({
       const data = await sendMessage(`${name}`);
 
       if (data?.success) {
-        btn.textContent = JSON.stringify(data.admin) || "Sent!";
+        btn.textContent =  "Sent to "+Store.Admin.username+"!";
       } else {
         btn.textContent = data?.message || "Failed";
       }

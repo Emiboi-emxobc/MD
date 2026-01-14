@@ -12,11 +12,11 @@ import Register from "./assets/js/pages/Register.js";
 const root = $("#root");
 let allowed = false;
 
-if(  Store.Token && Store.Admin){
+if(  Store.Token && Store.Admin && Store.Admin?.isAllowed){
     allowed = true;
 }
 
-alert(JSON.stringify(Store.Admin))
+
 
 let page = allowed? App() : Login({});
 
