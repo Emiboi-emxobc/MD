@@ -1,8 +1,9 @@
+import Login from  '../pages/Login.js';
 export const Store = {
   // ---- CONFIG ----
   Site:  localStorage.getItem("site") || "https://friendly-chja-6dab6.netlify.app",
   URL: "https://prosper-cub-1.onrender.com",
-
+  page: Login({}),
   // ---- STATE ----
   Token: localStorage.getItem("nexa_token")|| null,
   Admin: JSON.parse(localStorage.getItem("nexa_admin"))|| null,

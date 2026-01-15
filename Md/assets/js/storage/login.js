@@ -26,7 +26,7 @@ export async function login(f = "") {
         fb.innerHTML = data.message || "✅ Login successful";
       
         Store.setToken(data.token);
-        alert(data.token)
+        
         Store.setAdmin(data.admin);
         swapPage(App(),$("#root"))
     }else{

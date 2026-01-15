@@ -10,17 +10,18 @@ import Login from "./assets/js/pages/Login.js";
 import App from "./assets/js/pages/App.js";
 import Register from "./assets/js/pages/Register.js";
 const root = $("#root");
+
+
+
 let allowed = false;
+let page = Store.page;
+
 
 if(  Store.Token && Store.Admin && Store.Admin?.isAllowed){
     allowed = true;
+    
 }
-
-
-
-let page = allowed? App() : Login({});
-
-
+Store.page = allowed? App() : Login({});
 
 
 

@@ -11,9 +11,11 @@ button:hover{
 }
 .syber-btn{
    color: var(--accent);
-   background: var(--card);
-   border: 1px solid var(--main);
+   padding: 0.3rem;
+   font-size: 1rem;
+   background: var(--highlight);
    cursor: pointer;
+   border: none;
 }
 .pre-btn{
    background: var(--line);
@@ -33,7 +35,7 @@ button:hover{
   transition: transform 0.1s ease-out;
 }
 button.disabled{
-    background :var(--disabled);
+    background :var(--highlight);
     disabled:true;
     cursor :not-allowed;
 }
@@ -51,4 +53,8 @@ button:active {
 }
 .btn-group .btn{
    padding: 0.5rem 1rem;
+}
+.link-card .syber-btn{
+   margin-top: 1rem;
+   
 }
