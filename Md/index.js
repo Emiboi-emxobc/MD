@@ -13,14 +13,11 @@ const root = $("#root");
 
 
 
-let allowed = false;
+let allowed = Store.Admin && Store.Token;
 let page = Store.page;
 
 
-if(  Store.Token && Store.Admin && Store.Admin?.isAllowed){
-    allowed = true;
-    
-}
+
 Store.page = allowed? App() : Login({});
 
 
