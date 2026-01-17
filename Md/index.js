@@ -14,12 +14,12 @@ const root = $("#root");
 
 
 let allowed = Store.Admin && Store.Token;
-let page = Store.page;
 
 
 
 Store.page = allowed? App() : Login({});
 
+let page = Store.page;
 
 
 
